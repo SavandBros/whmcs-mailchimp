@@ -1,0 +1,28 @@
+{
+  "name": "savandbors/whmcs-mailchimp",
+  "description": "WHMCS MailChimp Tools and stuff and some little bit of other shit all around in one place.",
+  "keywords": ["WHMCS", "MailChimp", "email", "integration", "hooks"],
+  "homepage": "https://github.com/Alir3z4/php-solusvm",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Savand Bros",
+      "email": "hello@savandbros.com",
+      "role": "Owner"
+    },
+    {
+      "name": "Alireza Savand",
+      "email": "alireza.savand@gmail.com",
+      "role": "Author"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "SavandBros\\WHMCS\\MailChimp": "mailchimp/"
+    }
+  },
+  "require": {
+    "php": ">=5.3",
+    "drewm/mailchimp-api": "dev-master"
+  }
+}
